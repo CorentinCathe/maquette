@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+html {
+  font-family: "Cinzel";
+}
+
+header {
+  height: 60px;
+  position: sticky;
+  width: 100%;
+  padding-top: 20px;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.content-menu:hover {
+  color: gray;
+}
+
+#title {
+  font-size: 26px;
+  position: sticky;
+  top: 20px;
+}
+
+.menu {
+  display: flex;
+  font-family: "Roboto";
+  list-style: none;
+}
+
+.content-menu {
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+
+#page-content {
+    background-color: lightgray;
+    margin: auto;
+    width: 90%;
+    height: 750px;
+    animation: fadein 2s;
+  }
+  #left-img{
+      position: relative;
+      z-index: 0;
+      
+      height: 750px;
+  }
+  
+  .footer-content {
+    text-align: center;
+    font-size: 12pt;
+  }
+  
+  .social-media {
+    margin-top: 2%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:40%;
+    text-decoration: none;
+  }
+  .social-icon {
+    width: 30px;
+  }
+  .social-liste{
+    list-style: none;
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

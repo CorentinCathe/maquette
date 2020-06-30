@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+html {
+  font-family: "Cinzel";
+}
+
+header {
+  height: 60px;
+  position: sticky;
+  width: 100%;
+  padding-top: 20px;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.content-menu:hover {
+  color: gray;
+}
+
+#title {
+  font-size: 26px;
+  position: sticky;
+  top: 20px;
+}
+
+.menu {
+  display: flex;
+  font-family: "Roboto";
+  list-style: none;
+}
+
+.content-menu {
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+
+.title-bloc{
+    padding-top: 40%;
+    font-size: 23pt;
+    color: white;
+}
+
+.page-content{
+    display: flex;
+    justify-content: center;
+    animation: fadein 2s;
+}
+.content-bloc{
+    width: 30%;
+    height: 650px;
+    margin: 10px;
+    text-align: center;
+}
+
+#bloc-1{
+    background-image: url("../assets/img/background/sushi-2853382_1920.jpg");
+}
+#bloc-2{
+    background-image: url("../assets/img/background/pasta-1181189_1920.jpg");
+}
+#bloc-3{
+    background-image: url("../assets/img/background/chefs-1662717_1920.jpg");
+}
+.button a{
+    color: white;
+    border: solid white 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    transition: all 0.5s ease-out;
+}
+
+.button a:hover{
+    background-color: #938a8b;
+    border-color: #938a8b;
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 12pt;
+}
+
+.social-media {
+  margin-top: 2%;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40%;
+  text-decoration: none;
+}
+.social-icon {
+  width: 30px;
+}
+.social-liste {
+  list-style: none;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
