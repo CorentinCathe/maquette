@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cinzel";
+}
+
+header {
+  height: 80px;
+  position: sticky;
+  width: 100%;
+  padding: 20px;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.content-menu:hover {
+  color: gray;
+}
+
+#title {
+  font-size: 26px;
+  position: sticky;
+  top: 20px;
+}
+
+.menu {
+  display: flex;
+  font-family: "Roboto";
+  list-style: none;
+}
+
+.content-menu {
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+
